@@ -1,4 +1,4 @@
-- name: : 2nd branch
+- name: 2nd branch
   hosts: all
   tasks:
   - debug:
