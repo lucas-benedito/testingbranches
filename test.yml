@@ -1,5 +1,6 @@
 - name: 2nd branch
   hosts: all
   tasks:
-  - debug:
-    msg: "2nd branch"
+  - name: testing task
+    ansible.builtin.debug:
+      msg: "2nd branch"
