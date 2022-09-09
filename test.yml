@@ -1,5 +1,6 @@
 - name: : main branch
   hosts: all
   tasks:
-  - debug:
-    msg: "Main branch"
+  - name: testing task
+    ansible.builtin.debug:
+      msg: "Main branch"
