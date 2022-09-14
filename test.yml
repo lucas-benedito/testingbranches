@@ -1,6 +1,11 @@
 - name: 2nd branch
   hosts: all
   tasks:
-  - name: testing task
-    ansible.builtin.debug:
-      msg: "2nd branch"
+  - name: Add user
+  ansible.controller.user:
+    username: testing user
+    password: basicpass
+    email: testing@techtalk.com
+    first_name: Test
+    last_name: User
+    state: present
