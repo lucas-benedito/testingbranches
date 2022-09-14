@@ -3,7 +3,7 @@
   tasks:
   - name: Add user
     ansible.controller.user:
-      username: testing user
+      username: testing
       password: basicpass
       email: testing@techtalk.com
       first_name: Test
