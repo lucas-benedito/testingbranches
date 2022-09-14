@@ -1,4 +1,4 @@
-- name: : main branch
+- name: main branch
   hosts: all
   tasks:
   - name: testing task
