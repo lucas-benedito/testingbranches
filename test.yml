@@ -2,10 +2,10 @@
   hosts: all
   tasks:
   - name: Add user
-  ansible.controller.user:
-    username: testing user
-    password: basicpass
-    email: testing@techtalk.com
-    first_name: Test
-    last_name: User
-    state: present
+    ansible.controller.user:
+      username: testing user
+      password: basicpass
+      email: testing@techtalk.com
+      first_name: Test
+      last_name: User
+      state: present
